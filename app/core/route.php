@@ -42,7 +42,7 @@
                 Route::errorPage404();
         }
     
-        public function ErrorPage404()
+        public function errorPage404()
         {
             $host = 'http://'.$_SERVER['HTTP_HOST'].'/';
             header('HTTP/1.1 404 Not Found');
