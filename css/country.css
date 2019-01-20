@@ -1,0 +1,19 @@
+body {
+    margin: 0 10%;
+}
+th,td {
+    text-align: center;
+}
+td:first-of-type {
+    font-weight: bold;
+}
+header>h1 {
+    text-align: center;
+}
+.btn {
+    margin: 5px 0;
+}
+#div-table {
+    height: 75vh;
+    overflow-y: scroll;
+}
